@@ -1,7 +1,7 @@
 import cv2
 import os, glob
 eye_cascPath = "../First_Project/Resource/haarcascade_eye_tree_eyeglasses.xml"  #eye detect model
-face_cascPath = "../First_Project/Resource/haarcascade_frontalface_default.xml"  #face detect model
+face_cascPath = "../First_Project/Resource/haarcascade_frontalface_default.xml"  #front_face detect model
 faceCascade = cv2.CascadeClassifier(face_cascPath)
 eyeCascade = cv2.CascadeClassifier(eye_cascPath)
 
