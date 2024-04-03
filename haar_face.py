@@ -38,4 +38,8 @@ for dir in dirs:
             if len(eyes) == 0:
                 print('no eyes!!!')
             else:
+                print(file)
                 print('eyes!!!')
+            cv2.imshow('img', img)
+            if cv2.waitKey(0) == ord('q') or cv2.waitKey(0) == ord('Q'):
+                cv2.destroyAllWindows()
