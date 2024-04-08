@@ -1,8 +1,6 @@
 import cv2
 import os, glob
 import matplotlib.pyplot as plt
-from PIL import Image
-import numpy as np
 
 detector = cv2.FaceDetectorYN.create("../First_Project/Resource/face_detection_yunet_2023mar.onnx", "", (0, 0))
 
